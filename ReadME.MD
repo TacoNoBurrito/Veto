@@ -1,1 +1,3 @@
-ReadME file type shizzle
+# Veto
+
+An evades clone written in JavaScript.

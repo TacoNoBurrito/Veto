@@ -1,0 +1,17 @@
+{
+  "name": "veto",
+  "version": "1.0.0",
+  "description": "Evades clone",
+  "main": "server/veto.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Taco",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "notepack": "^0.0.2",
+    "sat": "^0.9.0",
+    "socket.io": "^4.7.2"
+  }
+}
