@@ -22,7 +22,7 @@ class Level {
                 entity.doAutomaticMove();
             }
             if (entity instanceof Player) {
-                entity.processKeys();
+                entity.tick();
             }
 
             for (const other of this.entities) {

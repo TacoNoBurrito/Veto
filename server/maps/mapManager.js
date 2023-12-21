@@ -20,10 +20,10 @@ class MapManager {
         let levelsLoaded = 0;
         let enemiesLoaded = 0;
         const start = new Date().getTime();
-        const dir = fs.opendirSync("maps");
+        const dir = fs.opendirSync("data/maps");
         let fileName;
         while((fileName = dir.readSync()) !== null) {
-            const data = require(`../../maps/${fileName.name}`);
+            const data = require(`../../data/maps/${fileName.name}`);
             const map = new Map(this, data.name, data.color);
             let currentPos = 0;
             for (const levelData of data.levels) {

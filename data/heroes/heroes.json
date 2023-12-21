@@ -1,0 +1,14 @@
+{
+    "MagMax": {
+        "powerOne": {
+            "name": "Speed",
+            "description": "Speed up your hero."
+        },
+        "powerTwo": {
+            "name": "Guard",
+            "description": "Prevent your hero from dying, while also becoming immobile."
+        },
+        "unlockAt": "Free",
+        "color": "red"
+    }
+}
